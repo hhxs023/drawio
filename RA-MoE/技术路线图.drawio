@@ -16,7 +16,7 @@
         <mxCell id="ra_moe_bg" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#F7F3EB;strokeColor=#D0C7B7;strokeWidth=1.2;" value="" vertex="1">
           <mxGeometry height="480" width="730" x="560" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="ra_moe_label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Times New Roman;fontSize=26;fontStyle=1;fontColor=#000000;" value="&lt;font style=&quot;font-size: 34px;&quot;&gt;RA_MoE&lt;/font&gt;" vertex="1">
+        <mxCell id="ra_moe_label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Times New Roman;fontSize=26;fontStyle=1;fontColor=#000000;" value="&lt;font style=&quot;font-size: 34px;&quot;&gt;RA-MoE&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="120" x="835.17" y="156" as="geometry" />
         </mxCell>
         <mxCell id="expert_header" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Times New Roman;fontSize=22;fontStyle=1;fontColor=#000000;" value="Expert Actors" vertex="1">
