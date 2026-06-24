@@ -31,25 +31,25 @@
         <mxCell id="g_label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=16;fontStyle=2;fontColor=#000000;" value="$$G_t$$" vertex="1">
           <mxGeometry height="24" width="42.42" x="554.0200000000001" y="360.81" as="geometry" />
         </mxCell>
-        <mxCell id="e_owalk" edge="1" parent="1" source="obs_panel" style="endArrow=block;html=1;rounded=0;strokeColor=#000000;strokeWidth=3;endFill=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.997;exitY=0.223;exitDx=0;exitDy=0;exitPerimeter=0;" target="walk_actor" value="">
+        <mxCell id="e_owalk" edge="1" parent="1" source="obs_panel" style="endArrow=block;html=1;rounded=0;strokeColor=#000000;strokeWidth=3;endFill=1;entryX=0.502;entryY=1.02;entryDx=0;entryDy=0;exitX=0.997;exitY=0.223;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" target="walk_actor" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="150" y="130" as="sourcePoint" />
             <mxPoint x="255" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e_orun" edge="1" parent="1" source="obs_panel" style="endArrow=block;html=1;rounded=0;strokeColor=#000000;strokeWidth=3;endFill=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.53;exitDx=0;exitDy=0;exitPerimeter=0;" target="ZEp_l0zU2eGprUrmen54-14" value="">
+        <mxCell id="e_orun" edge="1" parent="1" source="obs_panel" style="endArrow=block;html=1;rounded=0;strokeColor=#000000;strokeWidth=3;endFill=1;entryX=0.508;entryY=1.02;entryDx=0;entryDy=0;exitX=1;exitY=0.53;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" target="ZEp_l0zU2eGprUrmen54-14" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="342" y="273" as="sourcePoint" />
             <mxPoint x="400" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e_curr_g" edge="1" parent="1" source="obs_panel" style="endArrow=block;html=1;rounded=0;strokeColor=#000000;strokeWidth=3;endFill=1;exitX=1;exitY=0.836;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="ZEp_l0zU2eGprUrmen54-16" value="">
+        <mxCell id="e_curr_g" edge="1" parent="1" source="obs_panel" style="endArrow=block;html=1;rounded=0;strokeColor=#000000;strokeWidth=3;endFill=1;exitX=1;exitY=0.836;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.501;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;" target="ZEp_l0zU2eGprUrmen54-16" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="300" y="425" as="sourcePoint" />
-            <mxPoint x="400" y="425" as="targetPoint" />
+            <mxPoint x="395" y="388" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e_walk_sum" edge="1" parent="1" source="walk_actor" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;strokeColor=#000000;strokeWidth=3;endFill=1;entryX=0.284;entryY=0.014;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" target="weighted_sum" value="">
+        <mxCell id="e_walk_sum" edge="1" parent="1" source="walk_actor" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;strokeColor=#000000;strokeWidth=3;endFill=1;entryX=0.285;entryY=0.033;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" target="weighted_sum" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="605" y="157" />
@@ -79,9 +79,9 @@
             <mxPoint x="925.1056073161068" y="275.3625486030128" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e_plus_mu" edge="1" parent="1" source="plus_node" style="endArrow=block;html=1;rounded=0;strokeColor=#000000;strokeWidth=3;endFill=1;entryX=-0.016;entryY=0.789;entryDx=0;entryDy=0;entryPerimeter=0;" target="sim_panel" value="">
+        <mxCell id="e_plus_mu" edge="1" parent="1" source="plus_node" style="endArrow=block;html=1;rounded=0;strokeColor=#000000;strokeWidth=3;endFill=1;entryX=-0.01;entryY=0.789;entryDx=0;entryDy=0;entryPerimeter=0;" target="sim_panel" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1105" y="250" as="targetPoint" />
+            <mxPoint x="1014" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e_critic_value" edge="1" parent="1" source="critic" style="endArrow=block;html=1;rounded=0;strokeColor=#000000;strokeWidth=3;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ppo" value="">
@@ -98,10 +98,10 @@
             <mxPoint x="1393" y="676.6199999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e_sim_ppo" edge="1" parent="1" source="ZeBXYJA_LHFtZkcsAgMR-71" style="endArrow=block;html=1;rounded=0;strokeColor=#000000;strokeWidth=3;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="critic" value="">
+        <mxCell id="e_sim_ppo" edge="1" parent="1" source="ZeBXYJA_LHFtZkcsAgMR-71" style="endArrow=block;html=1;rounded=0;strokeColor=#000000;strokeWidth=3;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1800" y="328.41999999999996" as="sourcePoint" />
-            <mxPoint x="1695" y="823.4200000000001" as="targetPoint" />
+            <mxPoint x="445" y="525" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZeBXYJA_LHFtZkcsAgMR-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=24;" value="Proprioception" vertex="1">
@@ -114,7 +114,7 @@
           <mxGeometry height="143.86" width="83.23" x="477.89000000000004" y="453.04" as="geometry" />
         </mxCell>
         <mxCell id="ZeBXYJA_LHFtZkcsAgMR-79" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=22;" value="Critic" vertex="1">
-          <mxGeometry height="65.17" width="129" x="454.99999999999994" y="492.39000000000004" as="geometry" />
+          <mxGeometry height="37.56" width="89" x="475.01" y="506.19" as="geometry" />
         </mxCell>
         <mxCell id="amp_disc" parent="1" style="shape=trapezoid;perimeter=trapezoidPerimeter;direction=south;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=4;fontFamily=Times New Roman;fontSize=17;fontStyle=1;rotation=90;size=13.829999999999927;fillStyle=auto;flipH=0;legacyAnchorPoints=0;flipV=1;" value="" vertex="1">
           <mxGeometry height="167.12" width="62.79" x="1111.58" y="403.56" as="geometry" />
@@ -128,13 +128,13 @@
         <mxCell id="vdEON3O5N92iebtSSan8-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="$$\mathcal{L}_{\mathrm{act}}=\frac{1}{|\Omega_{\mathrm{sup}}|}\sum_{t\in\Omega_{\mathrm{sup}}}\min\left(\left\|a_{\mathrm{base},t}-\mathrm{sg}\left(a_t^{y_t}\right)\right\|_2^2,c_{\mathrm{mse}}\right)$$&lt;div&gt;$$\mathcal{L}_{\mathrm{gate}}=-\frac{1}{|\Omega_{\mathrm{sup}}|}\sum_{t\in\Omega_{\mathrm{sup}}}\frac{1}{23}\sum_{j=1}^{23}\log\left(g_{t,y_t}^{(j)}+\epsilon\right)$$&lt;div&gt;$$\mathcal{L}_{\mathrm{sup}}=\mathcal{L}_{\mathrm{gate}}+\mathcal{L}_{\mathrm{act}}$$&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="181.3" width="400" x="1470" y="555" as="geometry" />
         </mxCell>
-        <mxCell id="vdEON3O5N92iebtSSan8-37" edge="1" parent="1" source="sim_panel" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;exitX=0.155;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.048;entryY=0.3;entryDx=0;entryDy=0;entryPerimeter=0;" target="ppo" value="">
+        <mxCell id="vdEON3O5N92iebtSSan8-37" edge="1" parent="1" source="sim_panel" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;exitX=0.155;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
               <mxPoint x="1045.24" y="500.76" />
             </Array>
             <mxPoint x="1045.6899999999994" y="297.3921599999999" as="sourcePoint" />
-            <mxPoint x="770.0000000000002" y="499.59194000000025" as="targetPoint" />
+            <mxPoint x="805" y="501" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vdEON3O5N92iebtSSan8-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="$$(s_t^{\mathrm{amp}}, s_{t+1}^{\mathrm{amp}})$$" vertex="1">
@@ -153,7 +153,7 @@
           <mxGeometry height="30" width="200" x="1525" y="160.34000000000003" as="geometry" />
         </mxCell>
         <mxCell id="vdEON3O5N92iebtSSan8-51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="&lt;font&gt;$$a_{\mathrm{t}}$$&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="50" x="950" y="208.83999999999997" as="geometry" />
+          <mxGeometry height="24.58" width="30" x="960" y="214.83999999999997" as="geometry" />
         </mxCell>
         <mxCell id="vdEON3O5N92iebtSSan8-52" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="$$a_{\mathrm{base}}$$" vertex="1">
           <mxGeometry height="30" width="60" x="800.9999999999999" y="357.01" as="geometry" />
