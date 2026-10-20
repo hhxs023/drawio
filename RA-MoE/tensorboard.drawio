@@ -25,7 +25,7 @@
         <mxCell id="3jDKaS5Q7hUUXmYmm5XB-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=24;" value="&lt;font&gt;(c) Action rate&lt;/font&gt;" vertex="1">
           <mxGeometry height="28" width="170" x="815" y="580" as="geometry" />
         </mxCell>
-        <mxCell id="3jDKaS5Q7hUUXmYmm5XB-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=24;" value="&lt;font&gt;(a) Linear velocity tracking&lt;/font&gt;" vertex="1">
+        <mxCell id="3jDKaS5Q7hUUXmYmm5XB-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=24;" value="&lt;font&gt;(d) Linear velocity tracking&lt;/font&gt;" vertex="1">
           <mxGeometry height="28" width="285" x="1227.5" y="580" as="geometry" />
         </mxCell>
       </root>
